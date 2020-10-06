@@ -1,0 +1,142 @@
+name: fluppyclient
+description: A new Flutter application.
+
+version: 1.0.2+41
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_signin_button: any
+  cupertino_icons: ^0.1.2
+  generic_bloc_provider: ^1.0.9
+  flutter_screenutil: ^0.4.2
+  firebase_auth: ^0.15.3+1
+  google_sign_in: ^4.1.1
+  firebase_storage: ^3.1.1
+  cloud_firestore: ^0.13.0+1
+  flutter_launcher_icons: 0.7.2+1
+  curved_navigation_bar: ^0.3.0
+  shared_preferences: 0.5.3+4
+  fluttertoast: ^3.1.0
+  geolocator: ^5.1.5
+  google_maps_flutter: ^0.5.21
+  flutter_rating_bar: ^1.1.0
+  intro_slider: ^2.2.8
+  cached_network_image: 2.0.0-rc
+  location: ^2.3.5
+  transparent_image: ^0.1.0
+  url_launcher: ^5.1.0
+  flutter_exif_rotation: ^0.2.6
+  audioplayers: ^0.13.5
+  esys_flutter_share: ^1.0.2
+  camera:
+  path_provider:
+  image_picker: ^0.6.3+1
+  flutter_plugin_android_lifecycle: ^1.0.5
+  flutter_polyline_points: ^0.1.0
+  google_map_polyline: ^0.2.0+1
+  geocoder: ^0.2.1
+  flutter_local_notifications: ^1.1.6
+  scoped_model: 1.0.1
+  flare_flutter: ^2.0.1
+  place_picker: ^0.9.11
+  google_map_location_picker: ^3.2.1+2
+  flutter_google_places: ^0.2.4
+  carousel_slider: ^2.0.0
+  video_player: ^0.10.11
+  stripe_payment: ^1.0.7
+  http: ^0.12.1
+  google_places_picker: ^2.1.0+2
+  sign_in_with_apple: ^2.5.2
+  apple_sign_in: ^0.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+
+    - assets/elon_musk.jpg
+    - assets/animacionInicio.flr
+    - assets/FluppyLogoApp.png
+    - assets/circle_loading.flr
+    - assets/Success Check.flr
+    - assets/circle.flr
+    - assets/loading_circle_three.flr
+    - assets/fluppyLogoNom.png
+    - assets/requestDogDecoration.png
+    - assets/FluppyLite.png
+    - assets/FluppyPro.png
+    - assets/mapStyle.txt
+    - assets/loading.gif
+    - assets/iconoPaseoWalker.png
+    - assets/bueno
+    - assets/regular
+    - assets/malo
+    - assets/muyMalo
+    - assets/muyBueno
+    - assets/dog_sms.mp3
+    - assets/search.gif
+    - assets/map.png
+    - assets/help.png
+    - assets/fondoInicio2.png
+    - assets/check.png
+    - assets/IconoCasa.png
+    - assets/IconoPaseador.png
+    - assets/Success_Check.flr
+    - assets/checkPayment.png
+    - assets/dogThinking.png
+    - assets/boxfluppy.jpg
+    - assets/fluppyImageBillPayment.jpg
+    - assets/pinFluppyVet.png
+    - assets/fluppyVet.png
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: fonts/CustomIcons.ttf
+
+    - family: FluppyIcons
+      fonts:
+        - asset: fonts/FluppyIcons.ttf
+
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Regular.ttf
+
+    - family: RobotoMedium
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf
+
+    - family: RobotoRegular
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+
+    - family: RobotoLight
+      fonts:
+        - asset: fonts/Roboto-Light.ttf
+
+    - family: MontserratBold
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
+
+    - family: MontserratMedium
+      fonts:
+        - asset: fonts/Montserrat-Medium.ttf
+
+
+    - family: MontserratRegular
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+
+
+    - family: MontserratSemiBold
+      fonts:
+        - asset: fonts/Montserrat-SemiBold.ttf
